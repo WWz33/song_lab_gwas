@@ -8,6 +8,7 @@ thread="$4"
 ## fam_file
 ## ID FID phe1 phe2 phe3
 # 方便进行多表型分析，将其重命名为列名
+#e.g for i in {1..8};do bash gcta.sh $i phe_gcta  snp_removeIndividual 24 ;done
 
 
 # 读取文件的第一行（列名）
