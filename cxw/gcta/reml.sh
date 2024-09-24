@@ -30,3 +30,4 @@ head $new_pheno_file
 
 gcta64 --grm $grm --pheno "$new_pheno_file"  --reml  --mpheno 1 --thread-num $4 --out "$out_var"
 
+rm $new_pheno_file
